@@ -14,6 +14,6 @@ spec:
         nodeSelectorTerms:
           - matchExpressions:
               - key: type
-                operator: In # In / NotIn
+                operator: In # In / NotIn | Exists / DoesNotExist (Delete the values)
                 values:
                   - hdd
